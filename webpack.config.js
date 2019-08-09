@@ -11,11 +11,10 @@ module.exports = {
     devtool: "cheap-module-eval-source-map",
     output: {
         path: path.join(__dirname,'dist'),
-        publicPath: "/dist/"
     },
     plugins: [
         htmlPlugin,
-        new ExtractTextPlugin("css/[name].[hash:8].css")
+        new ExtractTextPlugin("css/[name].css")
     ],
     module: {
         rules: [

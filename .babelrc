@@ -1,6 +1,10 @@
 {
-  "presets": ["env","react"],
-  "plugins": [],
+  "presets": ["env","stage-0","react"],
+  "plugins": [["import",{
+    "libraryName": "antd",
+    "libraryDirectory": "es",
+    "style": "css"
+  }]],
   "env": {
     "development": {
       "presets": ["react-hmre"]
