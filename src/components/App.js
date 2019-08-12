@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../assets/logo.svg';
 import {DatePicker} from 'antd';
-import './App.css';
+import '../css/App.css';
+import ControlPanel from "./redux/ControlPanel";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
           Learn React
         </a>
         <DatePicker/>
+        <ControlPanel/>
       </header>
+
     </div>
   );
 }
