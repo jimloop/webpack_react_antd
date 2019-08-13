@@ -8,6 +8,7 @@
     "html-withimg-loader": "^0.1.16",
     "prop-types": "^15.7.2",
     "react": "^15.4.2",
+    "react-addons-perf": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.7",
     "react-scripts": "3.0.1",

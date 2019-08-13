@@ -22,7 +22,7 @@ Counter.propTypes = {
 
 function mapStateToProps(state, ownProps) {
     return {
-        value: state[ownProps.caption]
+        value: state.counter[ownProps.caption]
     }
 }
 

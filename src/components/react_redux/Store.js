@@ -1,5 +1,5 @@
 import {createStore} from 'redux';
-import Reducer from './Reducer';
+import reducer from './Reducer';
 
 const initValues={
     'First':0,
@@ -7,6 +7,6 @@ const initValues={
     'Third':30
 };
 
-const store = createStore(Reducer,initValues);
+const store = createStore(reducer,initValues);
 
 export default store;

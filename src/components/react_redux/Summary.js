@@ -14,9 +14,9 @@ Summary.PropTypes = {
 
 function mapStateToProps(state) {
     let sum = 0;
-    for (const key in state) {
-        if (state.hasOwnProperty(key)) {
-            sum += state[key];
+    for (const key in state.counter) {
+        if (state.counter.hasOwnProperty(key)) {
+            sum += state.counter[key];
         }
     }
     return {value: sum};
